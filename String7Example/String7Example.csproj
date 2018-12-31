@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{28965128-585F-4D08-AA7D-89593DCAA0E3}</ProjectGuid>
+    <ProjectGuid>{EC2ECE30-CB5A-48D5-A397-A0D5657A6E86}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Homework2CG</RootNamespace>
-    <AssemblyName>Homework2CG</AssemblyName>
+    <RootNamespace>String7Example</RootNamespace>
+    <AssemblyName>String7Example</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -48,12 +48,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\ClassLibrary1\StringExample.csproj">
-      <Project>{d59064cc-2d78-47ac-9b20-c3f65541a4c7}</Project>
-      <Name>StringExample</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
